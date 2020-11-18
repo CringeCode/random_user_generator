@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,500&display=swap');
+*
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(image/crumpled-white-paperboard.jpg);
+    background-size: 100%;
+}
+
+.head{
+    font-size: 30px;
+    color: #0b0c0e;
+    font-weight: 800;
+}
+
+.card{
+    border: 10px inset rgb(102, 101, 110);
+    background-color: #accfdf75;;
+}
+
+.card-body{
+    background-color: #858df55b;
+    transition: 0.5s;
+}
+
+.rotate{
+    transform: scale(0);
+}
